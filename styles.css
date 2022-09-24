@@ -1,11 +1,247 @@
 .body_img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
 }
-h1{
-    position: absolute;
-  bottom: 50px;
-  right: 50px;
+ body{
+  background-color:#ebc8b2;
+  font-weight: bold;
+  font-family: Georgia,  serif;
+ }
+
+ h1{
+ text-indent: 50px;
+  text-align: justify;
+  letter-spacing:3px;
+text-decoration: underline;
+/* position: absolute; */
+bottom: -4%;
+left: 46%;
+transform: translate(-2%, -46%);
+}
+.about{
+  font-family: ralewayMedium; sans-serif; 
+  font-weight: 400;
+  font-size: 1.2em;
+}
+h2, h3{
+  text-decoration: underline;
+  margin-right: auto;
+  margin-left: auto;
+  width:8em
+}
+ .shop-item-image{
+   height: 100px;
+   width: 100px;
+ }
+ .btn-purchase{
+   display: block;
+   margin:40px auto 80px auto;
+   font-size: 15px;
+   /* font-weight: bold; */
+   text-align: center;
+   /* margin: 4px 2px; */
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 8px;
+ }
+ .cart-item-title{
+   color:#333;
+   margin-left: 5em;
+   font-size: 1.2em;
+ }
+ .btn-danger{
+   color: black;
+   height:48px;
+    background: none;
+    align-items: center;
+    padding: 0 24px 0 16px;
+   letter-spacing:.25px;
+    border-radius: 8px;
+    border: 2px solid black
+ }
+ .btn-danger:hover{
+  background-color:#bc5e00
+ }
+ /* .btn-danger:focus{
+ box-shadow:0 0 0 4px lighten(red,40%)
+ } */
+ .btn{
+   text-align: center;
+   vertical-align: middle;
+   padding:.67em .67em;
+   cursor: pointer;
+  
+ }
+ .btn-header:hover{
+   background:rgba(255, 255,255,.3)
+  
+ }
+ .shop-item-price{
+   flex-grow: 1;
+   color:#333
+ }
+ .shop-items{
+   display: flex;
+   /* flex-direction: column; */
+   flex-wrap: wrap;
+   justify-content: space-around
+ }
+ .cart-header{
+   font-weight: bold;
+   font-size:1.25em;
+   color:#333
+ }
+ .cart-row{
+   display: flex;
+ }
+ .cart-item{
+   width:45%;
+ }
+ .cart-total{
+  display: flex;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-right: 680px;
+    flex-direction: row;
+  
+ }
+ .cart-total-price{
+   font-size:1.1em;
+   padding-left: 600px;
+ }
+ .cart-total-title{
+   font-weight: bold;
+   font-size: 1.5em;
+   color: black;
+   margin-right: 20px;
+   
+ }
+ .shop-item-image {
+  width: 200px;
+  height: 150px;
+   border-radius: 10px;
+}
+
+.shop-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+  padding-bottom: 12px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  padding-bottom: 12px;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 200px;
+  height: 150px;
+  border-radius: 9px;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.em;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+.shop-item-button{
+  font-size: 15px;
+  text-align: center;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #008cba
+}
+
+.shop-item-button:hover{
+  background-color: #008cba;
+  color: white;
+  
+}
+
+.ul{
+  list-style-type: square;
+}
+
+.btn_container{
+  display: flex;
+}
+.medias-links{
+  color:hsl(208,100%,51%)
+}
+.medias-links:hover{
+color: hsl(199,99%,55%);
+}
+
+.body_img{
+  display: flex;
+ float:right
 }
